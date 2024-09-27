@@ -20,7 +20,7 @@ function App() {
             </select>
           </div>
         </div>
-        <button type="sumbit" class="btn btn-primary">Submit</button>
+        <button type="sumbit" class="btn btn-primary">Dodaj</button>
       </form>
     </div>
   );
