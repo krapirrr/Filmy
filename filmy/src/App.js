@@ -14,6 +14,7 @@ function App() {
            <div class="mb-3">
       <label for="disabledSelect" class="form-label">Rodzaj filmu</label>
       <select id="disabledSelect" class="form-select">
+        <option>Pusta</option>
         <option>Komedia</option>
         <option>Obyczajowy</option>
         <option>Sensacyjny</option>
