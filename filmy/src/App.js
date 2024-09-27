@@ -10,14 +10,10 @@ function App() {
             <label for="film" class="form-label">Tytuł filmu:</label>
             <input type="text" class="form-control" id="film"/>
           </div>
-           <div id="emailHelp" class="form-text">Wybierz rodzaj filmu</div>
-        </div>
-        <div class="mb-3"><input type="email" class="form-control"/>
-        </div>
-        <div class="mb-3 form check">
-          <label class="form-check-label" for="exampleCheck1"></label>
+           <div id="emailHelp" class="form-text">Wpisz rodzaj filmu</div>
+          <input type="film" class="form-control" id="film"/>
           </div>
-          <button type="sumbit" class="btn btn-primary">Sprawdź</button>
+          <button type="sumbit" class="btn btn-primary">Submit</button>
           </form>
           </div>
   );
