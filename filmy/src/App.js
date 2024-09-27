@@ -10,8 +10,17 @@ function App() {
             <label for="film" class="form-label">Tytuł filmu:</label>
             <input type="text" class="form-control" id="film"/>
           </div>
-           <div id="emailHelp" class="form-text">Wpisz rodzaj filmu</div>
-          <input type="film" class="form-control" id="film"/>
+          
+           <div class="mb-3">
+      <label for="disabledSelect" class="form-label">Rodzaj filmu</label>
+      <select id="disabledSelect" class="form-select">
+        <option>Komedia</option>
+        <option>Obyczajowy</option>
+        <option>Sensacyjny</option>
+        <option>Horror</option>
+    
+      </select>
+    </div>
           </div>
           <button type="sumbit" class="btn btn-primary">Submit</button>
           </form>
